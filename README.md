@@ -1,2 +1,2 @@
-# EPIC-SOUNDS
-Repository for the EPIC-Sounds webpage
+# EPIC Fields
+Repository for the EPIC Fields webpage
