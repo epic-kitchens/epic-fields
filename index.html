@@ -166,10 +166,31 @@ To further jump start the interest of the community in this area, we also define
           <h4 class="section-subheading">Downloading point clouds and camera poses</h4>
           
           <p style='font-size:150%'>The dataset is now publicly <a href="https://www.dropbox.com/sh/s8y3xm06zjahopq/AADc8tenyIjm1LfIsVeslP18a?dl=0">available for download from here (7.5G).</a></p>
-          <p style='font-size:100%'>The demo code for visualising the data, and the reconstruction pipeline, can be found <a href="https://github.com/epic-kitchens/epic-Fields-code">on Github.</a></p>
-          <p style='font-size:100%'>
-            The raw dense registered frames in COLMAP format can be found at: <a href="https://www.dropbox.com/sh/6tvc58e7gp9qr5c/AACeNjBhDmW-nT1cOvuTsY90a?dl=0">here (133G)</a>.</p>
-          <p style='font-size:100%'></p>The raw sparse frames including COLMAP database can be found at: <a href="https://www.dropbox.com/sh/zstt3hg0evsbpdd/AAAK4wANwtrl_Kxa03c4oTdLa?dl=0">here (91.6G)</a>.
+          Raw data in COLMAP format:
+          <ul>
+            <li>
+              The dense registered frames in raw COLMAP format can be found at: <a href="https://www.dropbox.com/sh/6tvc58e7gp9qr5c/AACeNjBhDmW-nT1cOvuTsY90a?dl=0">here (133G)</a>.
+            </li>
+            <li>
+              The sparse frames including raw COLMAP database can be found at: <a href="https://www.dropbox.com/sh/zstt3hg0evsbpdd/AAAK4wANwtrl_Kxa03c4oTdLa?dl=0">here (91.6G)</a>.
+            </li>
+          </ul>
+
+          <h4 class="section-subheading">Code</h4>
+          We make the following codes now public, which replicate the EPIC Fields paper's baseline and provide visualisation support for the data
+          <ul>
+            <li>
+              <a href="https://github.com/dichotomies/epic-fields-nvs-udos">Benchmark: NVS and UDOS</a>  provides the code to reproduce the results for Task 1 and Task 2.
+              
+            </li>
+            <li>
+              <a href="https://github.com/AhmadDarKhalil/epic-fields-vos">Benchmark: VOS</a> contains the baselines for semi-supervised VOS (EPIC FIELDS) and how to use replicate the results reported in the paper.
+            </li>
+            <li>
+              <a href="https://github.com/epic-kitchens/epic-Fields-code">Visualisation and Pipeline</a> contains the demo code for visualising the data, and the reconstruction pipeline.
+            </li>
+          </ul>
+
           </p>
           
         <h4 class="section-subheading">Paper and Citation</h4>
